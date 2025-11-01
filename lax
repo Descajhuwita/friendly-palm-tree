@@ -1,0 +1,7 @@
+curl https://github.com/doktor83/SRBMiner-Multi/releases/download/2.9.9/SRBMiner-Multi-2-9-9-Linux.tar.gz -L -o SRBMiner-Multi-2-9-9-Linux.tar.gz
+tar xf SRBMiner-Multi-2-9-9-Linux.tar.gz
+cd SRBMiner-Multi-2-9-9
+mv SRBMiner-MULTI sbm
+while :; do
+./sbm --algorithm xhash --pool eu.rplant.xyz:7159 --wallet 0x48c27e67ddb605682609ce2b60278cdcf91fa284.x --password webpassword=x --disable-ptx-check --keepalive true
+done
