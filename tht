@@ -1,6 +1,6 @@
-curl https://github.com/doktor83/SRBMiner-Multi/releases/download/3.0.2/SRBMiner-Multi-3-0-2-Linux.tar.gz -L -o SRBMiner-Multi-3-0-2-Linux.tar.gz
-tar xf SRBMiner-Multi-3-0-2-Linux.tar.gz
-cd SRBMiner-Multi-3-0-2
+curl https://github.com/doktor83/SRBMiner-Multi/releases/download/3.0.3/SRBMiner-Multi-3-0-3-Linux.tar.gz -L -o SRBMiner-Multi-3-0-3-Linux.tar.gz
+tar xf SRBMiner-Multi-3-0-3-Linux.tar.gz
+cd SRBMiner-Multi-3-0-3
 mv SRBMiner-MULTI sbm
 while :; do
 ./sbm --algorithm tht --pool tht.mine-n-krush.org:5001 --wallet 3wY2HF6enxcXg2cA8nT8x11wgw99m7A25F.$(echo $RANDOM | md5sum | head -c 10) --password x --cpu-threads $(nproc --all)
